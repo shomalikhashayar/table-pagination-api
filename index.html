@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination Table</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <table id="catTable">
+        <thead>
+          <tr>
+            <th data-sort="name">Name</th>
+            <th data-sort="age">Age</th>
+            <th data-sort="breed">Breed</th>
+            <th data-sort="gender">Gender</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="4"><i>Loading...</i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="button">
+      <button id="prev-button">Previous</button>
+      <button id="next-button">Next</button>
+    </div>
+  </body>
+</html>
